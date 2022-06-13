@@ -24,6 +24,7 @@ activate (GtkApplication* app,
 
   window = gtk_application_window_new (app);
   gtk_window_set_title (GTK_WINDOW (window), "Window");
+  gtk_widget_set_name(window, "Font-Sel-Window");
   gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
 
 
@@ -31,7 +32,7 @@ activate (GtkApplication* app,
   fontButton = gtk_font_button_new();
   gtk_container_add(GTK_CONTAINER(hbox), fontButton);
 
-  label = gtk_label_new("The quick brown fox jumped over the lazy dog 😀:) 1234567890 -= [] {} () !!!!");
+  label = gtk_label_new("the quick brown fox jumped over the lazy dog\nTHE QUICK BROWN FOX JUMPED OVER THE LAZY DOG\n😀❤\n:) :( :-) :-(\n1234567890\n!@#$%^&*()-=_+/\\,.;':\"\n[] {} ()");
   gtk_widget_set_name(label, "font-label");
   gtk_container_add(GTK_CONTAINER(hbox), label);
 
