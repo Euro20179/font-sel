@@ -30,5 +30,5 @@ Don't set the font size too big or you'll probably regret it lol
 * The really only thing you can do is style this. A good way to do that is to use `~/.config/gtk-3.0/gtk.css`
 * selectors:
     * `#Font-Sel-Window` The window
-    * `font-label` The text that previews the font
+    * `#font-label` The text that previews the font
     * use `GTK_DEBUG=interactive font-sel` to find more.
