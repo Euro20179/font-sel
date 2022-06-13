@@ -23,7 +23,7 @@ activate (GtkApplication* app,
   const char* css =  "label#font-label{font-family: Comic Sans MS}";
 
   window = gtk_application_window_new (app);
-  gtk_window_set_title (GTK_WINDOW (window), "Window");
+  gtk_window_set_title (GTK_WINDOW (window), "Font Sel");
   gtk_widget_set_name(window, "Font-Sel-Window");
   gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
 
