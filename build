@@ -1,0 +1,1 @@
+g++ -o font-sel `pkg-config --cflags --libs gtk+-3.0` main.cpp
